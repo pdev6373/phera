@@ -3,7 +3,7 @@ import { CSSProperties, ReactNode } from 'react';
 
 type ButtonType = {
   loading?: boolean;
-  onClick: () => any;
+  onClick: () => void;
   disabled?: boolean;
   isSubmit?: boolean;
   extraStyles?: CSSProperties;

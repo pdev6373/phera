@@ -41,7 +41,7 @@ const User = () => {
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
-        const notesWithDates = parsed.map((note: any) => ({
+        const notesWithDates = parsed.map((note: AudioNote) => ({
           ...note,
           timestamp: new Date(note.timestamp),
         }));
