@@ -1,7 +1,7 @@
 'use client';
-import { ReactNode, Suspense } from 'react';
 import Header from './Layout/Header';
 import Sidebar from './Layout/Sidebar';
+import { ReactNode, Suspense } from 'react';
 import MainProvider from '@/context/MainContext';
 
 export default function Entry({ children }: { children: ReactNode }) {

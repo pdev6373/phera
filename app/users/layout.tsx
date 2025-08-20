@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Text from '@/components/Text';
 import { UserCategoryArray } from '@/api/users';
-import { Suspense } from 'react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 
 export const textToSlug = (text: string) =>
