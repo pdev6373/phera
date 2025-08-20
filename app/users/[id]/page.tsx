@@ -186,7 +186,7 @@ const User = () => {
   };
 
   return (
-    <div className="flex gap-2 sm:gap-6 grow md:gap-8 lg:gap-10 h-full flex-col-reverse lg:flex-row">
+    <div className="flex gap-6 grow lg:gap-10 h-full flex-col-reverse lg:flex-row">
       <aside className="lg:w-80 bg-white shadow-lg border-r border-gray-200 p-6 rounded-lg">
         <div className="space-y-6">
           <div className="flex items-center space-x-4">
@@ -295,8 +295,8 @@ const User = () => {
         </div>
 
         <div
-          className={`bg-white rounded-xl shadow-lg p-6 mb-6 ${
-            currentAudio ? 'visible' : 'invisible'
+          className={`bg-white rounded-xl shadow-lg p-6 ${
+            currentAudio ? 'block lg:visible' : 'hidden lg:invisible'
           }`}
         >
           <h3 className="text-lg font-semibold mb-4">Playback</h3>
