@@ -2,10 +2,7 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ['randomuser.me', 'ui-avatars.com'],
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
+    domains: ['ui-avatars.com'],
   },
   /* config options here */
 };
